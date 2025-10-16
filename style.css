@@ -41,3 +41,6 @@ body {
 .play-board .head {
   background: #60cbff;
 }
+.controls {
+  display: none;
+}

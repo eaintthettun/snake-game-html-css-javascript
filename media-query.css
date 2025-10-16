@@ -1,0 +1,18 @@
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 90vmin;
+    height: 115vmin;
+  }
+  .controls {
+    display: block;
+    padding: 10px 27px;
+    background: #293447;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .game-details {
+    padding: 10px 27px;
+    font-size: 1rem;
+  }
+}

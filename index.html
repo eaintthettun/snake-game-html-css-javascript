@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-query.css" />
   </head>
   <body>
     <div class="wrapper">
       <div class="game-details">
-        <span class="score">Score: 15</span>
-        <span class="high-score">High Score: 30</span>
+        <span class="score">Score: 0</span>
+        <span class="high-score">High Score: 0</span>
       </div>
       <div class="play-board"></div>
+      <div class="controls">
+        <img src="icons/up_arrow.svg" width="40" data-key="ArrowUp" />
+        <img src="icons/down_arrow.svg" width="40" data-key="ArrowDown" />
+        <img src="icons/left_arrow.svg" width="40" data-key="ArrowLeft" />
+        <img src="icons/right_arrow.svg" width="40" data-key="ArrowRight" />
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
