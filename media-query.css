@@ -4,12 +4,19 @@
     height: 115vmin;
   }
   .controls {
-    display: block;
-    padding: 10px 27px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+    grid-gap: 10px;
     background: #293447;
+    padding: 20px;
+  }
+  .controls div {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
   }
   .game-details {
     padding: 10px 27px;
